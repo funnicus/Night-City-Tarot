@@ -1,38 +1,23 @@
-# create-svelte
+# Night City Tarot
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Implemented with SvelteKit!
 
-## Creating a project
+## What is this?
 
-If you're seeing this, you've probably already done this step. Congrats!
+**Night City Tarot** is an optional new subsystem to enhance your Cyberpunk RED combat by introducing wild and rare new Critical Injuries and outcomes, providing climactic moments and shaking up your game.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## How do i use it?
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Using **Night City Tarot** is easy. You'll only need the 22 Major Arcana Cards from a standard Tarot deck. Mechanically, it's also simple.
 
-## Developing
+Whenever three or more dice rolled for damage from a Melee or Ranged Attack come up 6, draw the top card of your Night City Tarot deck and apply its effects as listed instead of a typical Critical Injury. There are two caveats.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+First, only draw a card if the Attack is against a single target. Never draw for grenades, rockets, or other Attacks with an area of effect.
 
-```bash
-npm run dev
+Second, only draw a card if both the attacker and defender are capable of sustaining Critical Injuries. For example, don’t draw if one of the combatants involved in the Attack is a drone.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Many of the Night City Tarot card effects inflict Critical Injuries. Whenever a card inflicts multiple Critical Injuries, each Injury causes 5 bonus damage directly to HP unless noted otherwise. After the effect of the card is resolved, put that card on the bottom of the deck, and put the deck away, because only one card can be pulled from the Night City Tarot per game session.
 
-## Building
+One last thing... after the first pull, don’t shuffle the deck until the campaign has experienced each card once... bad things happen when you tempt fate.
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Full guide for **Night City Tarot** can be downloaded from Talsorian Games [downloads](https://rtalsoriangames.com/downloads/).
