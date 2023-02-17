@@ -1,6 +1,6 @@
 # Night City Tarot
 
-Implemented with SvelteKit!
+🚧 WORK IN PROGRESS 🚧 Implemented with SvelteKit!
 
 See deployement [here](night-city-tarot-production.up.railway.app)!
 
