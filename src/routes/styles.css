@@ -1,0 +1,18 @@
+@import '@fontsource/fira-mono';
+
+:root {
+	--font-body: Futura;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	font-family: Futura;
+}
+
+main {
+	display: block;
+	flex: none;
+	margin: none;
+	padding: none;
+}
