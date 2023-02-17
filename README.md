@@ -2,6 +2,8 @@
 
 Implemented with SvelteKit!
 
+See deployement [here](night-city-tarot-production.up.railway.app)!
+
 ## What is this?
 
 **Night City Tarot** is an optional new subsystem to enhance your Cyberpunk RED combat by introducing wild and rare new Critical Injuries and outcomes, providing climactic moments and shaking up your game.
