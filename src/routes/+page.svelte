@@ -63,7 +63,6 @@
 		height: 600px;
 		margin: auto;
 		position: relative;
-		overflow-x: hidden;
 		user-select: none;
 		transform: scale(0.9);
 	}
