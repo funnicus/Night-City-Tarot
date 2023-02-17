@@ -4,6 +4,10 @@
 	--font-body: Futura;
 }
 
+html {
+	background: #ecdaba;
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;

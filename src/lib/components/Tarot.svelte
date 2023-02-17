@@ -1,30 +1,38 @@
 <script lang="ts">
-	import CardBack from './back.png';
+	//import { onMount } from 'svelte';
+	import CardBack from '../images/back.png';
 
 	export let image: string | undefined;
-	export let z: number;
-
-	const deg = Math.floor(Math.random() * 10);
-	const rotaion = Math.floor(Math.random() * 2) ? -deg : deg;
-
-	//const transform = `transform: rotate(${minus ? -deg : deg}deg)`;
+	export let id: number;
 
 	const onClick = (event: MouseEvent) => {
 		const element = event.target as HTMLElement;
-		//element.classList.toggle('flipped');
-		//element.nextElementSibling?.classList.toggle('flipped');
-		//document.querySelector('.front')?.classList.toggle('flipped');
-		//document.querySelector('.back')?.classList.toggle('flipped');
 		console.log(element.tagName);
 	};
 
-	//style={`z-index: ${z}; transform: rotate(${minus ? -deg : deg}deg)`}
+	// If we want to rotate the cards.
+	/*onMount(() => {
+		const frontId = `tarot-${id}-front`;
+		const backId = `tarot-${id}-back`;
+
+		const deg = Math.floor(Math.random() * 10);
+
+		const front = document.getElementById(frontId);
+		const back = document.getElementById(backId);
+
+		if (front && back) {
+			const rotate = Math.floor(Math.random() * 2) ? -deg : deg;
+			front.style.animation;
+			front.style.transform = `rotateY(0deg) rotate(${rotate}deg)`;
+			back.style.transform = `rotateY(180deg) rotate(${rotate}deg)`;
+		}
+	});*/
 </script>
 
-<button class="card front" on:click={onClick}>
+<button id={`tarot-${id}-front`} class="card front" on:click={onClick}>
 	<img src={image} alt="front" />
 </button>
-<button class="card back flipped" on:click={onClick}>
+<button id={`tarot-${id}-back`} class="card back flipped" on:click={onClick}>
 	<img src={CardBack} alt="back" />
 </button>
 

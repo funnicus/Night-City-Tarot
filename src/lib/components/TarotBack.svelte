@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let onClick: () => void = () => null;
+	import CardBack from '../images/back.png';
 
-	import CardBack from './back.png';
+	export let onClick: () => void = () => null;
 </script>
 
 <button class="tarot-card" on:click={onClick}>
