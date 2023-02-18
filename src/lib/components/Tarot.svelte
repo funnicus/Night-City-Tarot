@@ -93,7 +93,7 @@
 		<img src={HangedMan} alt="hanged man" />
 	{/if}
 </button>
-<button id={`tarot-${id}-back`} class="card back flipped" on:click={onClick}>
+<button id={`tarot-${id}-back`} class="card back flipped">
 	<img src={CardBack} alt="back" />
 </button>
 
