@@ -3,10 +3,21 @@
 	import TarotBack from '$lib/components/TarotBack.svelte';
 	import cards from '$lib/cards';
 	import { shuffle } from '$lib/helpers';
+	import { onMount } from 'svelte';
 
 	let deck = shuffle([...cards]);
 	let drawn: Card[] = [];
 	let current: Card | undefined = drawn.length ? drawn[drawn.length - 1] : undefined;
+
+	onMount(() => {
+		const deckInStorage = window.localStorage.getItem('deck');
+		const drawnInStorage = window.localStorage.getItem('drawn');
+		if (deckInStorage && drawnInStorage) {
+			deck = JSON.parse(deckInStorage) as Card[];
+			drawn = JSON.parse(drawnInStorage) as Card[];
+			current = drawn.length ? drawn[drawn.length - 1] : undefined;
+		}
+	});
 
 	const onClick = () => {
 		current = deck.pop();
@@ -14,9 +25,8 @@
 		drawn = [...drawn, current];
 		deck = deck;
 
-		// TODO: implement later
-		localStorage.setItem('deck', JSON.stringify(deck));
-		localStorage.setItem('drawn', JSON.stringify(drawn));
+		window.localStorage.setItem('deck', JSON.stringify(deck));
+		window.localStorage.setItem('drawn', JSON.stringify(drawn));
 	};
 
 	const shuffleCards = () => {
