@@ -8,7 +8,7 @@ See deployement [here](night-city-tarot-production.up.railway.app)!
 
 **Night City Tarot** is an optional new subsystem to enhance your Cyberpunk RED combat by introducing wild and rare new Critical Injuries and outcomes, providing climactic moments and shaking up your game.
 
-## How do i use it?
+## How do I use it?
 
 Using **Night City Tarot** is easy. You'll only need the 22 Major Arcana Cards from a standard Tarot deck. Mechanically, it's also simple.
 
