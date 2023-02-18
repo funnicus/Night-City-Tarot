@@ -2,7 +2,7 @@
 
 Implemented with SvelteKit!
 
-See deployement [here](night-city-tarot-production.up.railway.app)!
+See deployement [here](https://night-city-tarot-production.up.railway.app)!
 
 ## What is this?
 
