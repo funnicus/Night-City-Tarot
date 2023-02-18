@@ -28,7 +28,10 @@
 
 <svelte:head>
 	<title>Night City Tarot</title>
-	<meta name="description" content="Night City Tarot" />
+	<meta
+		name="description"
+		content="Night City Tarot | Enhance your Cyberpunk RED combat by introducing wild and rare new Critical Injuries and outcomes!"
+	/>
 </svelte:head>
 
 <section>
