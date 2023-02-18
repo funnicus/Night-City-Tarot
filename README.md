@@ -1,4 +1,4 @@
-# Night City Tarot
+# Night City Tarot 🌃⌺
 
 Implemented with SvelteKit!
 
