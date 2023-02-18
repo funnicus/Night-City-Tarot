@@ -33,6 +33,7 @@
 		deck = shuffle([...cards]);
 		drawn = [];
 		current = undefined;
+		window.localStorage.clear();
 	};
 </script>
 
