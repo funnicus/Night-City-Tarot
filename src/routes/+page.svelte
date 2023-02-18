@@ -3,8 +3,6 @@
 	import TarotBack from '$lib/components/TarotBack.svelte';
 	import cards from '$lib/cards';
 
-	export let data: { files: string[] };
-
 	function shuffle(array: any[]) {
 		for (let i = array.length - 1; i > 0; i--) {
 			const j = Math.floor(Math.random() * (i + 1));
@@ -49,8 +47,8 @@
 		{/if}
 	</div>
 	<div class="drawn">
-		{#each drawn as image, i}
-			<Tarot image={`src/lib/images/cards/${image.image}`} id={i} />
+		{#each drawn as card, i}
+			<Tarot image={card.image} id={i} />
 		{/each}
 	</div>
 </section>

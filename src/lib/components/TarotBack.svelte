@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CardBack from '../images/back.png';
+	import CardBack from '$lib/assets/back.png';
 
 	export let onClick: () => void = () => null;
 </script>
