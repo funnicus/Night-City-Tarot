@@ -4,7 +4,7 @@ const cards = [
 		name: 'The Fool',
 		descripiton: 'The Fool is returned to the beginning of their journey by a lucky shot.',
 		effectParagraphs: [
-			"All of the victim's Cyberware is rendered inoperable for one hour. Cyberlimbs that are rendered inoper- able act as their meat counterparts do when they have been dismembered, but they still hang loosely. Should this leave a target without any ability to sense an opponent, any Check they make suffers an additional -4 modifier, as if obscured by smoke or darkness.",
+			"All of the victim's Cyberware is rendered inoperable for one hour. Cyberlimbs that are rendered inoperable act as their meat counterparts do when they have been dismembered, but they still hang loosely. Should this leave a target without any ability to sense an opponent, any Check they make suffers an additional -4 modifier, as if obscured by smoke or darkness.",
 			'If the victim has no Cyberware they instead suffer the Foreign Object Critical Injury and experience 3d6 Humanity Loss.'
 		],
 		image: 'fool.png'
@@ -61,7 +61,7 @@ const cards = [
 		name: 'The Lovers',
 		descripiton: 'The Lovers bring the combatants even closer together.',
 		effectParagraphs: [
-			'This Attack now hits the head, even if it was originally aimed else- where. Additionally, if it was a Melee Attack that drew The Lovers, the victim is now considered to be defender in a grapple with the attacker.'
+			'This Attack now hits the head, even if it was originally aimed elsewhere. Additionally, if it was a Melee Attack that drew The Lovers, the victim is now considered to be defender in a grapple with the attacker.'
 		],
 		image: 'lovers.png'
 	},
@@ -104,7 +104,7 @@ const cards = [
 	{
 		number: 11,
 		name: 'Justice',
-		descripiton: 'Justice arrives to deliver pierc- ing clarity and truth directly to the gut.',
+		descripiton: 'Justice arrives to deliver piercing clarity and truth directly to the gut.',
 		effectParagraphs: [
 			'The Attack knocks the wind out of the victim. For the next minute they suffer a -5 penalty to Evasion Skill Checks when attempting to avoid a Melee Attack and they cannot dodge Ranged Attacks at all.'
 		],
@@ -142,7 +142,7 @@ const cards = [
 		name: 'The Devil',
 		descripiton: 'The Devil exists to represent and punish your fear and excess.',
 		effectParagraphs: [
-			'This Attack now hits the head, even if it was originally aimed else- where. Additionally, the victim suffers the Brain Injury and Lost Ear Critical Injuries.'
+			'This Attack now hits the head, even if it was originally aimed elsewhere. Additionally, the victim suffers the Brain Injury and Lost Ear Critical Injuries.'
 		],
 		image: 'devil.png'
 	},
@@ -186,7 +186,7 @@ const cards = [
 	{
 		number: 20,
 		name: 'Judgement',
-		descripiton: 'Judgement is a painful awak- ening you might not walk away from.',
+		descripiton: 'Judgement is a painful awakening you might not walk away from.',
 		effectParagraphs: [
 			'The victim suffers the Crushed Fingers Critical Injury on one of their hands, and the Dismembered Hand Critical Injury on another hand.'
 		],
