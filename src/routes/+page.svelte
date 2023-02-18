@@ -2,16 +2,9 @@
 	import Tarot from '$lib/components/Tarot.svelte';
 	import TarotBack from '$lib/components/TarotBack.svelte';
 	import cards from '$lib/cards';
+	import { shuffle } from '$lib/helpers';
 
-	function shuffle(array: any[]) {
-		for (let i = array.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
-			[array[i], array[j]] = [array[j], array[i]];
-		}
-		return array;
-	}
-
-	let deck: Card[] = shuffle([...cards]);
+	let deck = shuffle([...cards]);
 	let drawn: Card[] = [];
 	let current: Card | undefined = drawn.length ? drawn[drawn.length - 1] : undefined;
 
