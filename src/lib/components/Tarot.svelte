@@ -154,4 +154,24 @@
 			transform: translateX(0) rotateY(180deg);
 		}
 	}
+
+	@media (max-width: 800px) {
+		@keyframes flip-front {
+			from {
+				transform: translateY(-660px) rotateY(180deg);
+			}
+			to {
+				transform: translateY(0) rotateY(0deg);
+			}
+		}
+
+		@keyframes flip-back {
+			from {
+				transform: translateY(-660px) rotateY(0deg);
+			}
+			to {
+				transform: translateY(0) rotateY(180deg);
+			}
+		}
+	}
 </style>
