@@ -24,7 +24,7 @@ const cards = [
 		name: 'The High Priestess',
 		descripiton: 'The High Priestess guards the secret of poisoning from shrapnel.',
 		effectParagraphs: [
-			'The victim suffers the Foreign Object Critical Injury, except instead of re-suffering Bonus Damage whenever they move further than 4 m/yds on foot in a Turn, they mustinstead beat a DV 15 Resist Torture/Drugs Skill Check or suffer 3d6 damage directly to their Hit Points.'
+			'The victim suffers the Foreign Object Critical Injury, except instead of re-suffering Bonus Damage whenever they move further than 4 m/yds on foot in a Turn, they must instead beat a DV 15 Resist Torture/Drugs Skill Check or suffer 3d6 damage directly to their Hit Points.'
 		],
 		image: 'high-priestess.png'
 	},
