@@ -27,13 +27,6 @@
 	export let image: string;
 	export let id: number;
 
-	console.log(image);
-
-	const onClick = (event: MouseEvent) => {
-		const element = event.target as HTMLElement;
-		console.log(element.tagName);
-	};
-
 	// If we want to rotate the cards.
 	/*onMount(() => {
 		const frontId = `tarot-${id}-front`;
@@ -53,7 +46,7 @@
 	});*/
 </script>
 
-<button id={`tarot-${id}-front`} class="card front" on:click={onClick}>
+<button id={`tarot-${id}-front`} class="card front">
 	{#if image === 'fool.png'}
 		<img src={Fool} alt="fool" />
 	{:else if image === 'magician.png'}
@@ -125,7 +118,6 @@
 		border-radius: 10px;
 		border: 0.3em solid #000;
 		background-color: #000;
-		/*transition: transform 0.8s cubic-bezier(0.63, -0.32, 0.4, 1.39);*/
 		backface-visibility: hidden;
 	}
 
