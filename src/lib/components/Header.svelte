@@ -41,7 +41,9 @@
 		</p>
 		<p>
 			One last thing... after the first pull, don’t shuffle the deck until the campaign has
-			experienced each card once... bad things happen when you tempt fate.
+			experienced each card once... bad things happen when you tempt fate <strong
+				>(your deck progress is saved into the browser storage every time you draw)</strong
+			>.
 		</p>
 	</div>
 </div>
