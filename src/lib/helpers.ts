@@ -1,3 +1,6 @@
+/**
+ * Shuffle an array and return it. Mutates the array provided.
+ */
 export function shuffle<T>(array: T[]) {
 	for (let i = array.length - 1; i > 0; i--) {
 		const j = Math.floor(Math.random() * (i + 1));
