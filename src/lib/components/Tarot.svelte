@@ -148,10 +148,10 @@
 
 	@keyframes flip-back {
 		from {
-			transform: translateX(-560px) rotateY(0deg);
+			transform: translateX(-560px) rotateY(0deg) scale(1.05);
 		}
 		to {
-			transform: translateX(0) rotateY(180deg);
+			transform: translateX(0) rotateY(180deg) scale(1);
 		}
 	}
 
@@ -167,10 +167,10 @@
 
 		@keyframes flip-back {
 			from {
-				transform: translateY(-660px) rotateY(0deg);
+				transform: translateY(-660px) rotateY(0deg) scale(1.05);
 			}
 			to {
-				transform: translateY(0) rotateY(180deg);
+				transform: translateY(0) rotateY(180deg) scale(1);
 			}
 		}
 	}

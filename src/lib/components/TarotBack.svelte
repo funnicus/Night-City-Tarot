@@ -28,5 +28,10 @@
 		border-radius: 10px;
 		border: 0.3em solid #000;
 		background-color: #000;
+		transition: transform 0.8s cubic-bezier(0.63, -0.32, 0.4, 1.39);
+	}
+
+	.tarot-card:hover {
+		transform: scale(1.05);
 	}
 </style>
